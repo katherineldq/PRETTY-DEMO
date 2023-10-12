@@ -1,0 +1,31 @@
+body, html{
+    padding: 0;
+    margin: 0;
+
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    background-color: green;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
+@media (max-width: 800px){
+    .container{
+        background-color: red;
+    }
+    .navigation
+}
